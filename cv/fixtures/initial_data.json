@@ -1,0 +1,104 @@
+[
+	{
+		"pk": 1,
+		"model": "cv.profile",
+		"fields": 
+		{
+			"first_name": "Dainius",
+			"last_name": "Stankevicius",
+			"address": "Mittersteig 15/2/5, 1040, Wien, Austria",
+			"telephone": "06764328258",
+			"email": "dainius.stn@gmail.com"
+		}
+	},
+	{
+		"pk": 1,
+		"model": "cv.content",
+		"fields": 
+		{
+			"category": "intro",
+			"entry": "*born and raised in Lithuania, educated in Newcastle(UK), now becoming a web-developing Viennese"
+		}
+		
+	},
+	{
+		"pk": 2,
+		"model": "cv.content",
+		"fields": 
+		{
+			"category": "intro",
+			"entry": "*i like snowboarding(winter is coming!)"
+		}
+		
+	},
+	{
+		"pk": 3,
+		"model": "cv.content",
+		"fields": 
+		{
+			"category": "intro",
+			"entry": "*worked as a bartender, barista(coffee, not law), photographer(weddings, events)"
+		}
+
+	},
+	{
+		"pk": 4,
+		"model": "cv.content",
+		"fields": 
+		{
+			"category": "intro",
+			"entry": "*on a recent trip to [WebCamp'15](https://2015.webcampzg.org/) in Zagreb, Croatia, I made a vow to get myself refactored into a full-time, state of the art web-developer"
+		}
+
+	},
+	{
+		"pk": 5,
+		"model": "cv.content",
+		"fields": 
+		{
+			"category": "work_exp",
+			"entry": " - customized accounts system\n - transactional emails via sendgrid api\n - migration of old database\n - ongoing bug fixes\n - [scholarium.at](http://scholarium.at/)\n - [github repo of the project](https://github.com/valuehack/ww)\n",
+			"name": "(current) php with mysql developer at sholarium.at",
+			"description": "Sholarium is an alternative education centre and society for Austrian school of economics that is not for profit. I am motivated to work with them because of interests in economics and web development."
+		
+		}
+
+	},
+	{
+		"pk": 6,
+		"model": "cv.content",
+		"fields": 
+		{
+			"category": "work_exp",
+			"entry": " - senior psychologist of computer related issues\n - communicating in friendly manner and - I can solve it - attitude\n - setting up, maintain, troubleshoot windows workstations\n - liaison between management, staff and system administrator\n - executive director of compresed air operations for dust accumulation issues that affects PC internals\n",
+			"name": "(current) IT support tech in arsanis gmbh",
+			"description": "Arsanis creates a next generation treatment against infectious diseases. It is a good feeling to help and demistify IT for the lay people."
+		}
+
+	},
+	{
+		"pk": 7,
+		"model": "cv.content",
+		"fields": 
+		{
+			"category": "education",
+			"entry": " - Network principles and security, Internet technology(Java), Algorithm design, Fault tolerance, Distributed systems\n - Forward markets and uncertainty, Micro/Macro Economics\n - wrote about why shareholders should work closer with stakeholders\n - learned that economists and bankers have no idea about failovers and high availability\n",
+			"name": "BSc Joint Honours Computing Science and Economics, Newcastle University, UK",
+			"description": "where Rowan Atkinson got his degree too"
+		}
+
+	},
+	{
+		"pk": 8,
+		"model": "cv.content",
+		"fields": 
+		{
+			"category": "education",
+			"entry": " - took part in web conferences Webcamp 2014 and Webcamp 2015 in Zagreb, Croatia and WeAreDevelopers 2015 in Perchtoldsdorf, Austria\n - regularly attend web dev oriented meetups\n - eager to learn modern and good development practises and tools\n",
+			"name": "University of Life (Web Development Campus)",
+			"description": "web community, conferences, meetups"
+		}
+
+	}
+]
+

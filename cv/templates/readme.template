@@ -1,0 +1,37 @@
+------
+## **this is a CV of {{ profile.first_name }} {{ profile.last_name }}**	
+
+```
+*rendered with django to markdown to be viewed on github 
+*dedicated to ChatGrape
+```
+------
+###***contact:***
+- {{ profile.address }}
+- {{ profile.telephone }}
+- {{ profile.email }}
+
+------
+###***def me(request):***
+{% for one in intro %}
+{{ one.entry }}
+{% endfor %}
+
+------
+###***recent relevant work experience:***
+{% for one in work_exp %}
+####{{ one.name }}
+>{{ one.description }}
+
+{{ one.entry }}
+{% endfor %}
+
+------
+###***educated:***
+{% for one in education %}
+####{{ one.name }}
+>{{ one.description }}
+
+{{ one.entry }}
+{% endfor %}
+------
